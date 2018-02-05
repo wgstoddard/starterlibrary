@@ -75,7 +75,7 @@
         "regex": "^[A-Za-z0-9]{1,64}$"
     },
     {
-        "default": "opencontent-lamp",
+        "default": "opencontent-lamp-stoddard",
         "description": "The prefix of names for VPC, Gateway, Subnet and Security Group; Allow 1 to 240 alphanumeric characters and special characters +=._:/@- as tag value that is not starting with aws",
         "hidden": false,
         "immutable": false,
@@ -87,7 +87,7 @@
         "regex": "^(?![Aa][Ww][Ss])[A-Za-z0-9 +=._:\/@-]{1,240}$"
     },
     {
-        "default": "cam-public-key-lamp",
+        "default": "cam-public-key-lamp-stoddard",
         "description": "Name of the public SSH key used to connect to the virtual guests; Allow 1 to 65 printable ASCII characters",
         "hidden": false,
         "immutable": false,
