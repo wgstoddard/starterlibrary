@@ -1,7 +1,6 @@
 {
   "name": "SingleVirtualMachine",
   "description": "Create Virtual Machine with single vnic",
-  "type": "prebuilt",
   "version": "1.0.4",
   "manifest": {
     "template_type": "Terraform",
